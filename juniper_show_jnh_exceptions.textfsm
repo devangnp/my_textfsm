@@ -1,0 +1,10 @@
+Value Filldown FPC (\w+\d+)
+Value Filldown COMMAND (.*\S)
+Value Required COUNTER (.*?)
+Value TYPE (.*?)
+Value PACKETS (\d+)
+Value BYTES (\d+)
+
+Start
+  ^${FPC}.*#${COMMAND}\s*
+  ^${COUNTER}\s{2,}${TYPE}\s{2,}${PACKETS}\s+${BYTES} -> Record

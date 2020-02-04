@@ -1,0 +1,34 @@
+
+Physical interface: xe-0/0/1, Enabled, Physical link is Down
+  Interface index: 261, SNMP ifIndex: 631, Generation: 264
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 10Gbps, BPDU Error: None, Loop Detect PDU Error: None, MAC-REWRITE Error: None,
+  Loopback: None, Source filtering: Disabled, Flow control: Enabled, Speed Configuration: Auto
+  Pad to minimum frame size: Disabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 54:e0:32:b8:88:01, Hardware address: 54:e0:32:b8:88:01
+  Last flapped   : 2019-11-20 13:46:58 PST (7w6d 17:09 ago)
+  Statistics last cleared: Never
+  Traffic statistics:
+
+Physical interface: xe-0/0/2, Enabled, Physical link is Down
+  Interface index: 262, SNMP ifIndex: 632, Generation: 265
+  Link-level type: Ethernet, MTU: 1514, MRU: 1522, LAN-PHY mode, Speed: 10Gbps, BPDU Error: None, Loop Detect PDU Error: None, MAC-REWRITE Error: None,
+  Loopback: None, Source filtering: Disabled, Flow control: Enabled, Speed Configuration: Auto
+  Pad to minimum frame size: Disabled
+  Device flags   : Present Running Down
+  Interface flags: Hardware-Down SNMP-Traps Internal: 0x4000
+  Link flags     : None
+  CoS queues     : 8 supported, 8 maximum usable queues
+  Schedulers     : 0
+  Hold-times     : Up 0 ms, Down 0 ms
+  Damping        : half-life: 0 sec, max-suppress: 0 sec, reuse: 0, suppress: 0, state: unsuppressed
+  Current address: 54:e0:32:b8:88:02, Hardware address: 54:e0:32:b8:88:02
+  Last flapped   : 2019-11-20 13:46:58 PST (7w6d 17:09 ago)
+  Statistics last cleared: Never
+  Traffic statistics:

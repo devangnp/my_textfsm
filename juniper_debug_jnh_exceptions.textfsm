@@ -1,0 +1,8 @@
+#To analyze the debug JNH exception packet capture
+Value IIF (\d+)
+Value TOEKN (\d+)
+Value PACKETDATA (.*)
+
+Start
+  ^.*jnh_exception_packet_trace:.*?iif:${IIF}.*token=${TOEKN} -> Record
+  ^.*jnh_exception_packet_trace:\d+\s+0x\S+${PACKETDATA} -> Record

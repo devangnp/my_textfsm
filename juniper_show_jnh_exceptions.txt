@@ -1,0 +1,51 @@
+SMPC17(r1-re0 vty)# show jnh 0 exceptions terse    
+
+Reason                             Type           Packets      Bytes
+==================================================================
+
+
+PFE State Invalid
+----------------------
+invalid fabric token               DISC( 75)         2809    2175741
+unknown iif                        DISC(  1)            2         92
+
+
+Routing
+----------------------
+control pkt punt via nh            PUNT( 34)      1339068  138016651
+host route                         PUNT( 32)       505124   30401563
+
+SMPC17(r1-re0 vty)# show jnh 0 exceptions terse    
+
+Reason                             Type           Packets      Bytes
+==================================================================
+
+
+PFE State Invalid
+----------------------
+invalid fabric token               DISC( 75)         2809    2175741
+unknown iif                        DISC(  1)            2         92
+
+
+Routing
+----------------------
+control pkt punt via nh            PUNT( 34)      1339087  138018663
+host route                         PUNT( 32)       505128   30401803
+
+SMPC17(r1-re0 vty)# show jnh 0 exceptions terse    
+
+Reason                             Type           Packets      Bytes
+==================================================================
+
+
+PFE State Invalid
+----------------------
+invalid fabric token               DISC( 75)         2809    2175741
+unknown iif                        DISC(  1)            2         92
+
+
+Routing
+----------------------
+control pkt punt via nh            PUNT( 34)      1339093  138018999
+host route                         PUNT( 32)       505132   30402043
+

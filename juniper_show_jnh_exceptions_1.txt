@@ -1,0 +1,19 @@
+NPC1(lisbon-re0 vty)# show jnh 0 exceptions terse    
+
+Reason                             Type           Packets      Bytes
+==================================================================
+
+
+PFE State Invalid
+----------------------
+iif down                           DISC( 87)           11        802
+
+
+Routing
+----------------------
+hold route                         DISC( 70)      1642625 3403801779
+resolve route                      PUNT( 33)       704480 1445201354
+control pkt punt via nh            PUNT( 34)         3586     136268
+host route                         PUNT( 32)     18064019  812643582
+reject route                       PUNT( 40)          394     444436
+

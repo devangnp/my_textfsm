@@ -1,0 +1,14 @@
+#Juniper LLDP textFsm file Devang Patel
+Value Filldown RTRNAME (\S+)
+Value Required LOCALINTF (\S+)
+Value PARENTINTF (\S+)
+Value CHASSISID (\S+)
+Value PORTINFO (\S+)
+Value SYSTEMNAME (\w+\-\d+|\w+)
+
+Start
+  ^\S+@${RTRNAME}>.*
+  ^Local\s+Interface\s+Parent\s+Interface\s+Chassis -> NoRecord
+  ^${LOCALINTF}\s+${PARENTINTF}\s+${CHASSISID}\s+${PORTINFO}\s+${SYSTEMNAME} -> Record
+  ^. -> Error
+  
